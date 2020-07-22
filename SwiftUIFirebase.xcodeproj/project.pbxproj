@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D79E508A95CAD491AEB688C /* Pods_SwiftUIFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98D97F5F8E579BCF97BCC2C /* Pods_SwiftUIFirebase.framework */; };
 		ADACC9F824C8E32B0057590B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADACC9F724C8E32B0057590B /* AppDelegate.swift */; };
 		ADACC9FA24C8E32B0057590B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADACC9F924C8E32B0057590B /* SceneDelegate.swift */; };
 		ADACC9FC24C8E32B0057590B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADACC9FB24C8E32B0057590B /* ContentView.swift */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3057FECF48915D5220CB4876 /* Pods-SwiftUIFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIFirebase.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIFirebase/Pods-SwiftUIFirebase.debug.xcconfig"; sourceTree = "<group>"; };
+		A29AF6E72F255CACA2228F00 /* Pods-SwiftUIFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIFirebase.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIFirebase/Pods-SwiftUIFirebase.release.xcconfig"; sourceTree = "<group>"; };
 		ADACC9F424C8E32B0057590B /* SwiftUIFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADACC9F724C8E32B0057590B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADACC9F924C8E32B0057590B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		ADACCA0024C8E32C0057590B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ADACCA0324C8E32C0057590B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADACCA0524C8E32C0057590B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C98D97F5F8E579BCF97BCC2C /* Pods_SwiftUIFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D79E508A95CAD491AEB688C /* Pods_SwiftUIFirebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4351177EC15E8856C910B9FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C98D97F5F8E579BCF97BCC2C /* Pods_SwiftUIFirebase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E577AC49F26EEEB4A052FC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3057FECF48915D5220CB4876 /* Pods-SwiftUIFirebase.debug.xcconfig */,
+				A29AF6E72F255CACA2228F00 /* Pods-SwiftUIFirebase.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		ADACC9EB24C8E32B0057590B = {
 			isa = PBXGroup;
 			children = (
 				ADACC9F624C8E32B0057590B /* SwiftUIFirebase */,
 				ADACC9F524C8E32B0057590B /* Products */,
+				9E577AC49F26EEEB4A052FC6 /* Pods */,
+				4351177EC15E8856C910B9FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADACCA0824C8E32C0057590B /* Build configuration list for PBXNativeTarget "SwiftUIFirebase" */;
 			buildPhases = (
+				D66F43D4CF7E1856D869766F /* [CP] Check Pods Manifest.lock */,
 				ADACC9F024C8E32B0057590B /* Sources */,
 				ADACC9F124C8E32B0057590B /* Frameworks */,
 				ADACC9F224C8E32B0057590B /* Resources */,
+				C8590DB5020A09A503DEC553 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -139,6 +166,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C8590DB5020A09A503DEC553 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIFirebase/Pods-SwiftUIFirebase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIFirebase/Pods-SwiftUIFirebase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUIFirebase/Pods-SwiftUIFirebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D66F43D4CF7E1856D869766F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUIFirebase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ADACC9F024C8E32B0057590B /* Sources */ = {
@@ -283,6 +352,7 @@
 		};
 		ADACCA0924C8E32C0057590B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3057FECF48915D5220CB4876 /* Pods-SwiftUIFirebase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -303,6 +373,7 @@
 		};
 		ADACCA0A24C8E32C0057590B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A29AF6E72F255CACA2228F00 /* Pods-SwiftUIFirebase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
