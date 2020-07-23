@@ -3,14 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		7D79E508A95CAD491AEB688C /* Pods_SwiftUIFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98D97F5F8E579BCF97BCC2C /* Pods_SwiftUIFirebase.framework */; };
+		AD686FD924C9250800DF0376 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD686FD824C9250800DF0376 /* GoogleService-Info.plist */; };
+		AD686FDB24C9278400DF0376 /* LandingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD686FDA24C9278300DF0376 /* LandingPageView.swift */; };
+		AD686FE224C92A8A00DF0376 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD686FE124C92A8A00DF0376 /* SignUpView.swift */; };
+		AD686FE424C92A9600DF0376 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD686FE324C92A9600DF0376 /* LogInView.swift */; };
+		AD686FE624C92AB800DF0376 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD686FE524C92AB800DF0376 /* DashboardView.swift */; };
+		AD686FEA24C9343900DF0376 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD686FE924C9343900DF0376 /* SessionStore.swift */; };
+		AD686FEC24C9351900DF0376 /* StartingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD686FEB24C9351900DF0376 /* StartingView.swift */; };
 		ADACC9F824C8E32B0057590B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADACC9F724C8E32B0057590B /* AppDelegate.swift */; };
 		ADACC9FA24C8E32B0057590B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADACC9F924C8E32B0057590B /* SceneDelegate.swift */; };
-		ADACC9FC24C8E32B0057590B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADACC9FB24C8E32B0057590B /* ContentView.swift */; };
 		ADACC9FE24C8E32C0057590B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADACC9FD24C8E32C0057590B /* Assets.xcassets */; };
 		ADACCA0124C8E32C0057590B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADACCA0024C8E32C0057590B /* Preview Assets.xcassets */; };
 		ADACCA0424C8E32C0057590B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADACCA0224C8E32C0057590B /* LaunchScreen.storyboard */; };
@@ -19,10 +25,16 @@
 /* Begin PBXFileReference section */
 		3057FECF48915D5220CB4876 /* Pods-SwiftUIFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIFirebase.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIFirebase/Pods-SwiftUIFirebase.debug.xcconfig"; sourceTree = "<group>"; };
 		A29AF6E72F255CACA2228F00 /* Pods-SwiftUIFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIFirebase.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIFirebase/Pods-SwiftUIFirebase.release.xcconfig"; sourceTree = "<group>"; };
+		AD686FD824C9250800DF0376 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AD686FDA24C9278300DF0376 /* LandingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageView.swift; sourceTree = "<group>"; };
+		AD686FE124C92A8A00DF0376 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		AD686FE324C92A9600DF0376 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		AD686FE524C92AB800DF0376 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		AD686FE924C9343900DF0376 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		AD686FEB24C9351900DF0376 /* StartingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingView.swift; sourceTree = "<group>"; };
 		ADACC9F424C8E32B0057590B /* SwiftUIFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADACC9F724C8E32B0057590B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADACC9F924C8E32B0057590B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ADACC9FB24C8E32B0057590B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ADACC9FD24C8E32C0057590B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADACCA0024C8E32C0057590B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ADACCA0324C8E32C0057590B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,8 +68,19 @@
 				3057FECF48915D5220CB4876 /* Pods-SwiftUIFirebase.debug.xcconfig */,
 				A29AF6E72F255CACA2228F00 /* Pods-SwiftUIFirebase.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		AD686FE024C92A1000DF0376 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD686FDA24C9278300DF0376 /* LandingPageView.swift */,
+				AD686FE124C92A8A00DF0376 /* SignUpView.swift */,
+				AD686FE324C92A9600DF0376 /* LogInView.swift */,
+				AD686FE524C92AB800DF0376 /* DashboardView.swift */,
+				AD686FEB24C9351900DF0376 /* StartingView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		ADACC9EB24C8E32B0057590B = {
@@ -81,13 +104,15 @@
 		ADACC9F624C8E32B0057590B /* SwiftUIFirebase */ = {
 			isa = PBXGroup;
 			children = (
+				ADACC9FF24C8E32C0057590B /* Preview Content */,
+				ADACCA0524C8E32C0057590B /* Info.plist */,
+				AD686FD824C9250800DF0376 /* GoogleService-Info.plist */,
+				ADACC9FD24C8E32C0057590B /* Assets.xcassets */,
 				ADACC9F724C8E32B0057590B /* AppDelegate.swift */,
 				ADACC9F924C8E32B0057590B /* SceneDelegate.swift */,
-				ADACC9FB24C8E32B0057590B /* ContentView.swift */,
-				ADACC9FD24C8E32C0057590B /* Assets.xcassets */,
 				ADACCA0224C8E32C0057590B /* LaunchScreen.storyboard */,
-				ADACCA0524C8E32C0057590B /* Info.plist */,
-				ADACC9FF24C8E32C0057590B /* Preview Content */,
+				AD686FE924C9343900DF0376 /* SessionStore.swift */,
+				AD686FE024C92A1000DF0376 /* Views */,
 			);
 			path = SwiftUIFirebase;
 			sourceTree = "<group>";
@@ -160,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADACCA0424C8E32C0057590B /* LaunchScreen.storyboard in Resources */,
+				AD686FD924C9250800DF0376 /* GoogleService-Info.plist in Resources */,
 				ADACCA0124C8E32C0057590B /* Preview Assets.xcassets in Resources */,
 				ADACC9FE24C8E32C0057590B /* Assets.xcassets in Resources */,
 			);
@@ -214,9 +240,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD686FE424C92A9600DF0376 /* LogInView.swift in Sources */,
+				AD686FEA24C9343900DF0376 /* SessionStore.swift in Sources */,
+				AD686FE624C92AB800DF0376 /* DashboardView.swift in Sources */,
+				AD686FE224C92A8A00DF0376 /* SignUpView.swift in Sources */,
+				AD686FEC24C9351900DF0376 /* StartingView.swift in Sources */,
 				ADACC9F824C8E32B0057590B /* AppDelegate.swift in Sources */,
+				AD686FDB24C9278400DF0376 /* LandingPageView.swift in Sources */,
 				ADACC9FA24C8E32B0057590B /* SceneDelegate.swift in Sources */,
-				ADACC9FC24C8E32B0057590B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
