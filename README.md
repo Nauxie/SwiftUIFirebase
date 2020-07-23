@@ -6,6 +6,8 @@ uses firebase authentification sdk and firestore sdk to create and log in with a
 
 ![Image](./images/screen1.png | width=100)
 
+<img src="./images/screen1.png" alt="" data-canonical-src="./images/screen1.png" width="200"/>
+
 ![Image](./images/screen2.png | width=100)
 
 ![Image](./images/screen3.png | width=100)
