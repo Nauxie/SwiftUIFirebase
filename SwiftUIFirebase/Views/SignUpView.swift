@@ -24,15 +24,15 @@ struct SignUpView: View {
                 self.error = error?.localizedDescription
             }
             else {
-                self.name = ""
-                self.email = ""
-                self.password = ""
                 let db = Firestore.firestore()
                 db.collection("users").document(result!.user.uid).setData(["name":name,"email":email,"uid":result!.user.uid]) { (error) in
                     if error != nil {
                         self.error = error?.localizedDescription ?? "An unknown error occurred"
                     }
                 }
+                self.name = ""
+                self.email = ""
+                self.password = ""
             }
             
         }
