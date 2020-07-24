@@ -3,6 +3,7 @@ SwiftUI boilerplate code for an app with Firebase sign up/sign in and persistent
 
 uses firebase authentification sdk and firestore sdk to create and log in with a user who's data persists through firestore. login persists by listening to a authorization state handler. custom error messages on each page. 
 
+you will need to generate a GoogleService-Info.plist
 
 <img src="./images/screen1.png" alt="" data-canonical-src="./images/screen1.png" width="300"/>
 
